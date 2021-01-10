@@ -9,6 +9,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ![GitHub Logo](/images/screengif.gif)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Link
+
+https://celo4ever.github.io/TinDog/
 
