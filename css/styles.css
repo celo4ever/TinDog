@@ -1,8 +1,4 @@
 
-#title{
-  background-color: #FF4C68;
-}
-
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -35,8 +31,12 @@ nav{
   padding-bottom: 4.5rem;
 }
 
+#title{
+  background-color: #FF4C68;
+}
+
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 15%;
 }
 
 .navbar-brand{
@@ -60,15 +60,26 @@ nav{
 }
 
 .title-image{
-  width: 60;
+  width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
-
-
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
 /* Features section */
 
 #features{
   padding: 7% 15%;
+  position: relative;
+  background-color: white;
 }
 
 .feature-box{
@@ -113,4 +124,38 @@ nav{
   background-color:#EF8172;
   text-align: center;
   padding-bottom: 3%;
+}
+
+/*Pricing*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call Action */
+
+#cta {
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.f-icon{
+  margin: 20px 10px;
+}
+
+.cta-heading{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
 }
