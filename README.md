@@ -7,7 +7,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## ScreenShots
 
-![GitHub Logo](/images/screen.png)
+![GitHub Logo](/images/screengif.gif)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
